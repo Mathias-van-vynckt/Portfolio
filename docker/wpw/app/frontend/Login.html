@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M.V.V - Login</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="Fotos/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="theme.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom sticky-top px-3" id="navbar-example2">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Mathias van vynckt</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto nav nav-pills align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              <i class="bi bi-house-door-fill"></i> Home
+            </a>
+          </li>
+
+          <li class="nav-item mx-2 d-none d-lg-block">|</li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="Login.html">
+              <i class="bi bi-lock-fill"></i> Exclusive
+            </a>
+          </li>
+
+          <li class="nav-item mx-2 d-none d-lg-block">|</li>
+
+          <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+            <button class="btn btn-outline-secondary" type="button" data-theme-toggle aria-label="Donkere modus wisselen">
+              Dark mode
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div
+    class="container-fluid d-flex justify-content-center align-items-center text-center text-light"
+    style="min-height: 100svh; background-image: linear-gradient(rgba(12, 17, 23, 0.808), rgba(12, 17, 23, 0.55)), url('Fotos/Mportfolio.jpg'); background-size: cover; background-position: center;">
+    
+    <section class="hover-card py-5 my-4 px-5 bg-body-tertiary border rounded-4 shadow-sm mx-auto" style="max-width: 700px; width: 100%;">
+      <h1 class="mb-4">Login</h1>
+
+      <form id="loginForm" class="row g-3">
+        <div class="form-floating col-md-12">
+          <input type="email" class="form-control" id="email" placeholder=" " required>
+          <label for="email" class="form-label text-body-secondary">E-mailadres</label>
+        </div>
+
+        <div class="form-floating col-md-12">
+          <input type="password" class="form-control" id="password" placeholder=" " required>
+          <label for="password" class="form-label text-body-secondary">Wachtwoord</label>
+        </div>
+
+        <div id="loginMelding" class="col-12"></div>
+
+        <div class="col-md-12">
+          <button type="submit" class="btn btn-primary w-50">Login</button>
+        </div>
+
+        <div class="col-12">
+          <p class=" text-body-secondary mb-1">Heb je nog geen account?</p>
+          <a href="signUp.html" class="text-body-secondary link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
+            Klik hier!
+          </a>
+        </div>
+      </form>
+    </section>
+  </div>
+
+  <script>
+    const loginForm = document.getElementById('loginForm');
+    const loginMelding = document.getElementById('loginMelding');
+
+    loginForm.addEventListener('submit', async (event) => {
+      event.preventDefault();
+
+      const data = {
+        email: document.getElementById('email').value.trim(),
+        wachtwoord: document.getElementById('password').value
+      };
+
+      try {
+        const response = await fetch('http://192.168.50.134:3000/api/login', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(data)
+        });
+
+        const result = await response.json();
+
+        if (!response.ok) {
+          loginMelding.innerHTML = `<div class="alert alert-danger">${result.message}</div>`;
+          return;
+        }
+
+        loginMelding.innerHTML = `<div class="alert alert-success">${result.message}</div>`;
+
+        setTimeout(() => {
+          window.location.href = 'exclusive.html';
+        }, 2000);
+      } catch (error) {
+        loginMelding.innerHTML = `<div class="alert alert-danger">De backend is niet bereikbaar.</div>`;
+      }
+    });
+  </script>
+</body>
+</html>

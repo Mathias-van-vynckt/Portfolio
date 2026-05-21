@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.V.V - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="Fotos/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="theme.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom sticky-top px-3" id="navbar-example2">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Mathias van vynckt</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto nav nav-pills align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#Home"> <i class="bi bi-house-door-fill"></i> Home </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#Over"><i class="bi bi-person-fill"></i> About me</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading3"> <i class="bi bi-envelope-fill"></i> Contact</a>
+          </li>
+          <p>|</p>
+          <li class="nav-item">
+            <a class="nav-link" href="Login.html"> <i class="bi bi-lock-fill"> Exclusive</i></a>
+          </li>
+         
+          <p>|</p>
+          
+          <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+            <button class="btn btn-outline-secondary" type="button" data-theme-toggle aria-label="Donkere modus wisselen">
+              Dark mode
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+
+  <h4 id="Home"></h4>
+  <div
+    class="container-fluid d-flex justify-content-center align-items-center text-center text-light"
+    style="min-height: 100svh; background-image: linear-gradient(rgba(12, 17, 23, 0.35), rgba(12, 17, 23, 0.55)), url('Fotos/Mportfolio.jpg'); background-size: cover; background-position: center;"
+  >
+    <div class="container">
+      <h1>Mijn website
+      </h1>
+
+      <a
+        href="behindthescenes.html"
+        aria-label="Behind the scenes"
+        title="..."
+        style="
+          display: inline-block;
+          margin-top: 18px;
+          font-size: 10px;
+          color: rgba(255,255,255,0.45);
+          text-decoration: none;
+          user-select: none;
+        "
+      >
+        behind the scenes
+      </a>
+    </div>
+  </div>
+   
+  <section class="container py-5 my-4 bg-body-tertiary border rounded-4 shadow-sm">
+    <h4 id="Over">About Me</h4>
+    <p class="text-body-secondary">
+     Hallo ik ben mathias student aplicatie- en databeheer 3de graad aan erasmus atheneum deinze.
+    </p>
+
+    <p class="text-body-secondary">
+      Ik ben geintreseerd in websites maken en games maken dat is waarom ik deze richting heb gekozen.
+      Verlopig leer ik over HTML en Bootstrap door echte websites te maken gelijk deze portofolio.
+    </p>
+
+    <p class="text-body-secondary">
+      Buiten websites maken vind ik het leuk om te gaan kamperen of te gaan hiken.
+      Met vrienden uitgaan of eens een speletje spelen vind ik ook wel echt super leuk.
+    </p>
+
+    <p class="text-body-secondary">
+      Wees niet bang om mij te contacteren
+    </p>
+
+    <div class="container-fluid row g-1 ">
+      <div class="col-md-6 ">
+        <img src="Fotos/rug.jpg" alt="Feest(super-lit)" style="width: 100%;" >
+        <div class="card shodow-lg" >
+          <img src="Fotos/Sushi.jpg" alt="Feest(super-lit)" style="width: 100%;">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="Fotos/Staking.jpg" alt="staking" style="width: 100%;">
+        <img src="Fotos/verjaardagCamille.jpg" alt="mog" style="width: 100%;">
+      </div>
+      <div class="col-md-12">
+        <img src="Fotos/100Dagen.jpg" style="max-width: 100%;" alt="">
+      </div>
+
+    <h4 id="scrollspyHeading3" class="mt-5">Contact</h4>
+    <h5>Contact Me!</h5>
+    <form class="row g-3">
+      <div class="col-md-12"> 
+        <label for="firstName" class="form-label">First Name </label>
+        <input type="text" class="form-control" id="firstName" required>
+      </div>
+      <div class="col-md-12">
+        <label for="lastName" class="form-label">Last Name </label>
+        <input type="text" class="form-control" id="lastName" required>
+      </div>
+      <div class="col-md-8">
+        <label for="emailInfo" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="emailInfo" required>
+      </div>
+            <div class="col-md-4">
+        <label for="phoneInfo" class="form-label">Phone Number</label>
+        <input type="text" class="form-control" id="phoneInfo" placeholder="+32 ">
+      </div>
+      <div class="col-md-12">
+        <label for="comments" class="form-label">Comments</label>
+        <textarea class="form-control" id="comments" rows="3" required></textarea>
+      </div>
+      <div class="col-md-12">
+        <button type="submit" class="btn btn-primary" >Submit</button>
+      </div>
+
+    </form>
+    
+
+  </section>
+
+</div>
+
+</body>
+</html>

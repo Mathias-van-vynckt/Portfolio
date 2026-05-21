@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "input_text",
+  "data": {
+    "items": [
+      {
+        "id": "laatste_beweging",
+        "name": "Laatste beweging",
+        "icon": "mdi:walk",
+        "min": 0,
+        "max": 100,
+        "mode": "text"
+      }
+    ]
+  }
+}

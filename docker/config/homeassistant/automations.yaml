@@ -1,0 +1,21 @@
+- id: '1770992915951'
+  alias: Melding
+  description: melding voor beweging
+  triggers:
+  - type: occupied
+    device_id: f51154e0cef704f890f5a6703b8362ae
+    entity_id: binary_sensor.clasroom_005_motion1_occupancy
+    domain: binary_sensor
+    trigger: device
+  conditions: []
+  actions:
+  - data:
+      entity_id: input_text.laatste_beweging
+      value: "\U0001F6B6 Beweging gezien om {{ now().strftime('%H:%M:%S') }}"
+    action: input_text.set_value
+  - action: notify.persistent_notification
+    metadata: {}
+    data:
+      message: 'Beweging gedeedecteerd  '
+      title: 'Beweging gedeedecteerd  '
+  mode: single

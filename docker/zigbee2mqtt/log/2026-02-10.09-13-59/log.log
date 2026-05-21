@@ -1,0 +1,90 @@
+[2026-02-10 09:13:59] info: 	z2m: Logging to console, file (filename: log.log)
+[2026-02-10 09:13:59] info: 	z2m: Starting Zigbee2MQTT version 2.8.0 (commit #b0b02c30b2e58c94043298c14848c90a0f74a24a
+)
+[2026-02-10 09:13:59] info: 	z2m: Starting zigbee-herdsman (9.0.2)
+[2026-02-10 09:13:59] info: 	zh:ember: Using default stack config.
+[2026-02-10 09:13:59] info: 	zh:ember: ======== Ember Adapter Starting ========
+[2026-02-10 09:13:59] info: 	zh:ember:ezsp: ======== EZSP starting ========
+[2026-02-10 09:13:59] info: 	zh:ember:uart:ash: ======== ASH Adapter reset ========
+[2026-02-10 09:13:59] info: 	zh:ember:uart:ash: Socket ready
+[2026-02-10 09:13:59] info: 	zh:ember:uart:ash: ======== ASH starting ========
+[2026-02-10 09:13:59] info: 	zh:ember:uart:ash: ======== ASH connected ========
+[2026-02-10 09:14:00] info: 	zh:ember:uart:ash: ======== ASH started ========
+[2026-02-10 09:14:00] info: 	zh:ember:ezsp: ======== EZSP started ========
+[2026-02-10 09:14:01] warning: 	zh:ember:uart:ash: Frame(s) in progress cancelled in [1ac1020b0a527e]
+[2026-02-10 09:14:01] error: 	zh:ember:uart:ash: Received unexpected reset from adapter, with reason=RESET_SOFTWARE.
+[2026-02-10 09:14:01] error: 	zh:ember:uart:ash: ASH disconnected: ASH_ERROR_NCP_RESET | Adapter status: ASH_NCP_FATAL_ERROR
+[2026-02-10 09:14:01] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:02] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:03] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:03] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:03] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:03] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:03] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:03] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:03] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:03] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:03] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:03] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:03] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:03] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:03] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:03] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:03] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:03] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:04] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:04] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:04] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:05] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:05] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:06] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:06] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:08] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:09] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:11] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:13] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:13] error: 	zh:ember:ezsp: Fatal error, status=HOST_FATAL_ERROR. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0]
+[2026-02-10 09:14:14] error: 	zh:ember:ezsp: ERROR Transaction failure; status=ASH_ERROR_TIMEOUTS. Last Frame: [FRAME: ID=0:"VERSION" Seq=0 Len=0].
+[2026-02-10 09:14:14] error: 	z2m: Error while starting zigbee-herdsman
+[2026-02-10 09:14:14] error: 	z2m: Failed to start zigbee-herdsman
+[2026-02-10 09:14:14] error: 	z2m: Check https://www.zigbee2mqtt.io/guide/installation/20_zigbee2mqtt-fails-to-start_crashes-runtime.html for possible solutions
+[2026-02-10 09:14:14] error: 	z2m: Exiting...
+[2026-02-10 09:14:14] error: 	z2m: Error: ASH_ERROR_TIMEOUTS
+    at Ezsp.ezspVersion (/app/node_modules/.pnpm/zigbee-herdsman@9.0.2/node_modules/zigbee-herdsman/src/adapter/ember/ezsp/ezsp.ts:1452:19)
+    at EmberAdapter.emberVersion (/app/node_modules/.pnpm/zigbee-herdsman@9.0.2/node_modules/zigbee-herdsman/src/adapter/ember/adapter/emberAdapter.ts:1393:63)
+    at EmberAdapter.initEzsp (/app/node_modules/.pnpm/zigbee-herdsman@9.0.2/node_modules/zigbee-herdsman/src/adapter/ember/adapter/emberAdapter.ts:670:9)
+    at EmberAdapter.start (/app/node_modules/.pnpm/zigbee-herdsman@9.0.2/node_modules/zigbee-herdsman/src/adapter/ember/adapter/emberAdapter.ts:1538:24)
+    at Controller.start (/app/node_modules/.pnpm/zigbee-herdsman@9.0.2/node_modules/zigbee-herdsman/src/controller/controller.ts:143:29)
+    at Zigbee.start (/app/lib/zigbee.ts:70:27)
+    at Controller.start (/app/lib/controller.ts:101:13)
+    at start (/app/index.js:149:5)

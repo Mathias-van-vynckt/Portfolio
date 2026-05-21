@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "minor_version": 9,
+  "key": "core.area_registry",
+  "data": {
+    "areas": [
+      {
+        "aliases": [],
+        "floor_id": null,
+        "humidity_entity_id": null,
+        "icon": "mdi:sofa",
+        "id": "living_room",
+        "labels": [],
+        "name": "Lokaal 005",
+        "picture": null,
+        "temperature_entity_id": null,
+        "created_at": "2026-01-27T08:01:40.977110+00:00",
+        "modified_at": "2026-02-05T13:08:03.412439+00:00"
+      },
+      {
+        "aliases": [],
+        "floor_id": null,
+        "humidity_entity_id": null,
+        "icon": "mdi:glass-cocktail",
+        "id": "kitchen",
+        "labels": [],
+        "name": "Lokaal 006",
+        "picture": null,
+        "temperature_entity_id": null,
+        "created_at": "2026-01-27T08:01:40.977249+00:00",
+        "modified_at": "2026-02-05T13:19:22.505679+00:00"
+      },
+      {
+        "aliases": [],
+        "floor_id": null,
+        "humidity_entity_id": null,
+        "icon": "mdi:book",
+        "id": "bedroom",
+        "labels": [],
+        "name": "Lokaal 007",
+        "picture": null,
+        "temperature_entity_id": null,
+        "created_at": "2026-01-27T08:01:40.977335+00:00",
+        "modified_at": "2026-02-05T13:19:56.764825+00:00"
+      },
+      {
+        "aliases": [],
+        "floor_id": null,
+        "humidity_entity_id": null,
+        "icon": "mdi:halloween",
+        "id": "office",
+        "labels": [],
+        "name": "Lokaal 008",
+        "picture": null,
+        "temperature_entity_id": null,
+        "created_at": "2026-01-27T08:12:55.712005+00:00",
+        "modified_at": "2026-02-05T13:20:28.472743+00:00"
+      },
+      {
+        "aliases": [],
+        "floor_id": null,
+        "humidity_entity_id": null,
+        "icon": null,
+        "id": "magazijn_007",
+        "labels": [],
+        "name": "Magazijn 007",
+        "picture": null,
+        "temperature_entity_id": null,
+        "created_at": "2026-02-05T13:14:22.239748+00:00",
+        "modified_at": "2026-02-05T13:14:22.239753+00:00"
+      },
+      {
+        "aliases": [],
+        "floor_id": null,
+        "humidity_entity_id": null,
+        "icon": null,
+        "id": "magazijn008",
+        "labels": [],
+        "name": "Magazijn008",
+        "picture": null,
+        "temperature_entity_id": null,
+        "created_at": "2026-02-05T13:18:03.716438+00:00",
+        "modified_at": "2026-02-05T13:18:03.716445+00:00"
+      }
+    ]
+  }
+}

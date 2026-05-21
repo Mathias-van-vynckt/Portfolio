@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.classroom_control",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "title": "Home",
+          "sections": [
+            {
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "heading",
+                  "heading": "New section"
+                },
+                {
+                  "type": "tile",
+                  "entity": "binary_sensor.clasroom_005_motion1_occupancy"
+                },
+                {
+                  "type": "markdown",
+                  "content": "## Bewegingssensor\n{{ states('input_text.laatste_beweging') }}\n"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

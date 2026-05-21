@@ -1,0 +1,19 @@
+services:
+  mariadb:
+    image: mariadb:11
+    container_name: mariadb-wpw
+    environment:
+      MARIADB_ROOT_PASSWORD: servermathias
+      MARIADB_DATABASE: app_db
+      MARIADB_USER: app_user
+      MARIADB_PASSWORD: sterk_wachtwoord
+    ports:
+      - "3306:3306"
+    networks:
+      - proxy
+    volumes:
+      - /srv/docker/mariadb:/var/lib/mysql
+
+networks:
+  proxy:
+    external: true
