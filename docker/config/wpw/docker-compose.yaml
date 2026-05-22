@@ -6,7 +6,8 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - /srv/docker/wpw/app/frontend:/usr/share/nginx/html:ro
+      - /srv/Portfolio/docker/wpw/app/frontend:/usr/share/nginx/html:ro
+      - /srv/Portfolio/docker/wpw/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
     depends_on:
       - backend
     networks:
@@ -30,7 +31,7 @@ services:
       DB_USER: app_user
       DB_PASSWORD: sterk_wachtwoord
     volumes:
-      - /srv/docker/wpw/app/backend:/app
+      - /srv/Portfolio/docker/wpw/app/backend:/app
     depends_on:
       - database
     networks:
@@ -48,8 +49,8 @@ services:
       MARIADB_USER: app_user
       MARIADB_PASSWORD: sterk_wachtwoord
     volumes:
-      - /srv/docker/wpw/database/data:/var/lib/mysql
-      - /srv/docker/wpw/database/init:/docker-entrypoint-initdb.d:ro
+      - /srv/Portfolio/docker/wpw/database/data:/var/lib/mysql
+      - /srv/Portfolio/docker/wpw/database/init:/docker-entrypoint-initdb.d:ro
     networks:
       - app_internal
 

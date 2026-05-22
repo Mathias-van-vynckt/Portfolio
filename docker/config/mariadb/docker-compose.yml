@@ -12,7 +12,7 @@ services:
     networks:
       - proxy
     volumes:
-      - /srv/docker/mariadb:/var/lib/mysql
+      - /srv/Portfolio/docker/mariadb:/var/lib/mysql
 
 networks:
   proxy:
